@@ -1,0 +1,49 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape
+            android:shape="rectangle">
+            <corners  android:topLeftRadius="6dp"
+                android:bottomLeftRadius="0dp"
+                android:topRightRadius="6dp"
+                android:bottomRightRadius="0dp"/>
+
+
+
+            <gradient android:startColor="#ffffff"
+                android:endColor="#ffffff"
+                android:angle="270"/>
+
+
+            <stroke   android:width="0dp"
+                android:color="#80000000" />
+            <solid android:color="#bbb" />
+
+        </shape>
+    </item>
+
+    <item
+        android:left="0.5dp"
+        android:right="0.5dp"
+        android:top="0.5dp">
+        <!--边框里面背景颜色 白色-->
+        <shape
+            android:shape="rectangle">
+            <corners  android:topLeftRadius="3dp"
+                android:bottomLeftRadius="0dp"
+                android:topRightRadius="3dp"
+                android:bottomRightRadius="0dp"/>
+
+
+
+            <gradient android:startColor="#ffffff"
+                android:endColor="#ffffff"
+                android:angle="270"/>
+
+
+            <stroke   android:width="0dp"
+                android:color="#fff" />/>
+
+        </shape>
+    </item>
+
+</layer-list>
